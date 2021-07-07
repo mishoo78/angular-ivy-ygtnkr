@@ -3,8 +3,9 @@ import { Observable } from 'rxjs';
 import { Ticket, Tickets } from './shared/ticket';
 import { map } from 'rxjs/operators';
 import { AppService } from './app.service';
+
 @Component({
-  selector: 'my-app',
+  selector: 'h2-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
