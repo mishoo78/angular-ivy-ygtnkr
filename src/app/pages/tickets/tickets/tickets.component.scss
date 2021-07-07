@@ -1,0 +1,48 @@
+:host {
+    display: flex;
+    flex-direction: row;
+
+    .tickets-list-controls {
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+
+    .tickets-list-controls > * {
+        height: 130px;
+        width: 100%;
+        border: 1px solid;
+        border-radius: 4px;
+        margin-top: 10px;
+    }
+
+
+    .tickets-content {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+        margin: 10px;
+
+        & > * {
+            width: 100%;
+        }
+
+        .action-bar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+    // .tickets-content > * {
+    //     width: 100%;
+    // }
+
+    // .tickets-content
+
+}

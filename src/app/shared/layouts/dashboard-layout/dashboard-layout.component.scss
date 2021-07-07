@@ -1,0 +1,45 @@
+@import '../../../../variables.scss';
+
+:host {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100%;
+}
+
+.nav-bar {
+    background-color: $tertiary;
+    color: white;
+}
+
+.nav-bar-vertical {
+    width: 50px;
+    .top {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        
+        .menu {
+            background-image: url('../../../../assets/menu-icon.svg');
+            background-repeat: no-repeat;
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+.content-wrapper {
+   flex-grow: 1;
+   display: flex;
+   flex-direction: column;
+
+    .dashboard-content {
+        height: 100%;     
+    }
+
+    .nav-bar-horizontal {
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+}
